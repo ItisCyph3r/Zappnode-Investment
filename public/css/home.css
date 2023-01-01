@@ -1,0 +1,261 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+* {
+  outline: 0px solid red;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* font-family: monospace !import; */
+  /* color: #6c63ff; */
+
+  /* height: 200px; */
+  overflow-x: hidden;
+}
+
+h1 {
+  /* color: #252158; */
+  color: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+.navbar {
+  background-color: #139ca4;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #252158 !important;
+}
+
+.slide {
+  margin-top: 100px;
+}
+
+.nav-link {
+  color: #fff !important;
+  padding: 0px;
+  margin-top: 0px;
+  border-radius: 20px;
+}
+
+.nav-link:focus {
+  color: #139ca4 !important;
+}
+
+.nav-link:hover {
+  color: #139ca4 !important;
+}
+
+.menuButtons {
+  border: none;
+  background: #fff;
+}
+
+.adbtn {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #252158;
+  color: #fff;
+}
+
+.adbtn:hover {
+  color: #fff;
+  /* background-color: #3f3d56; */
+  opacity: 0.8;
+}
+
+#details {
+  background-color: #ffffff;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.showcase {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 70px;
+  background-color: #252158;
+  height: 100vh;
+}
+
+.details-gap {
+  padding-bottom: 00px;
+  padding-top: 50px;
+}
+
+#investment .investbtn {
+  color: #252158;
+  background-color: red;
+}
+
+#investment {
+  margin-bottom: 100px;
+  padding: 5%;
+  background-color: #252158;
+  color: #fff;
+}
+
+.investment-card {
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+p {
+  font-weight: bolder;
+}
+
+#security {
+  margin-bottom: 100px;
+}
+
+#product {
+  background-color: #139ca4;
+  margin-bottom: 0px;
+  padding: 5%;
+}
+
+.product-grid {
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.product-grid:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.signup-home-nav {
+  font-family: 'Poppins';
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  /* width: 30%; */
+  margin-top: 7px;
+  /* height: 50px; */
+  border-radius: 25px;
+  background-color: #252158;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-left: 20px;
+  padding-right: 20px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.signup-home-nav a {
+  color: #fff
+}
+
+.signup-home-nav:hover {
+  outline: 1px solid #252158;
+  background-color: #fff;
+  color: #252158;
+}
+
+.signup-home-nav a:hover {
+  color: #252158;
+}
+
+
+.signup-home {
+  font-family: 'Poppins';
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #252158;
+  position: relative;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  /* width: 30%; */
+  /* height: 50px; */
+  border-radius: 25px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 15px 25px;
+  border: none;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.signup-home a {
+  color: #252158
+}
+
+.signup-home:hover {
+  outline: 1px solid #fff;
+  background-color: #252158;
+  color: #fff !important;
+}
+
+.signup-home a:hover {
+  color: #fff;
+}
+
+/* footer */
+
+/* Overlay */
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .signup-home {
+    width: 100%;
+    /* left: 80px; */
+    text-align: center;
+  }
+
+  .signup-home-nav {
+    width: 100%;
+    /* left: 80px; */
+    text-align: center;
+  }
+}
